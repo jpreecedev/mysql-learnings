@@ -26,7 +26,7 @@ CREATE DATABASE yourdatabase;
 Create a new user;
 
 ```sql
-CREATE USER 'foo'@'localhost' IDENTIFIED BY 'bar';
+CREATE USER 'foo'@'localhost' IDENTIFIED WITH mysql_native_password BY 'bar';
 ```
 
 And grant all privileges;

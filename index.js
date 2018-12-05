@@ -3,9 +3,9 @@ var knex = require("knex")({
   version: "8.0.13",
   connection: {
     host: "127.0.0.1",
-    user: "foo",
-    password: "bar",
-    database: "yourdatabase"
+    user: "user",
+    password: "password",
+    database: "buymyhouse"
   }
 });
 
