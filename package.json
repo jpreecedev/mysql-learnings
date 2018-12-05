@@ -1,0 +1,27 @@
+{
+  "name": "mysql-learnings",
+  "version": "1.0.0",
+  "description": "A small repo that does the minimum required to set up and query a MySQL database (running in a Docker container) using Node & Knex.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpreecedev/mysql-learnings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpreecedev/mysql-learnings/issues"
+  },
+  "homepage": "https://github.com/jpreecedev/mysql-learnings#readme",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "knex": "^0.15.2"
+  },
+  "engines": {
+    "node": ">=8.11.3"
+  }
+}
